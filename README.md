@@ -7,4 +7,4 @@ simulate RF pad in HFSS
 - 1.avi and 2.avi shows 2 propagation mode of the structure (displayed dynamically in a video file)
 - Port Zo Plot 1.png and S parameter Chart 1.png is the simulation result of GSG structure
 - Smith Chart Intro.pdf gives a brief introduction on the frequently used tool, Smith Chart
-- I also attached the source file rf_pad.aedt to the repo, if you have access t HFSS, you can simulate all mentioned part on your local machine.
+- I also attached the source file rf_pad.aedt to the repo, if you have access to HFSS, you can simulate all mentioned part on your local machine.
