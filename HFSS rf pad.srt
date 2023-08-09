@@ -1,0 +1,740 @@
+1
+0:00:00 --> 0:00:08
+In this video, I want to explain how to use Ansys HFSS to RFSPAD.
+
+2
+0:00:08 --> 0:00:20
+First, we open this software, and it will automatically create a project for us.
+
+3
+0:00:20 --> 0:00:23
+Then we can change it to RFSPAD.
+
+4
+0:00:23 --> 0:00:34
+Then we click on Project Insert HFSS Design, and we will get a blank form.
+
+5
+0:00:34 --> 0:00:44
+Since RFSPAD is running in the interface of the client,
+
+6
+0:00:44 --> 0:00:48
+it may need some settings in the previous period,
+
+7
+0:00:48 --> 0:00:51
+but I couldn't write them all down like script.
+
+8
+0:00:51 --> 0:01:07
+The first step is to choose Modeler, Model Units, and then choose Vimee, UUM.
+
+9
+0:01:07 --> 0:01:11
+Then we need to change the solution type.
+
+10
+0:01:11 --> 0:01:17
+For the GSC, the solution type can't be used in Terminal,
+
+11
+0:01:17 --> 0:01:20
+so we use Model to do the same.
+
+12
+0:01:20 --> 0:01:30
+After we change the solution type, we may need to scan the parameters.
+
+13
+0:01:30 --> 0:01:37
+So we need to write the parameters in the previous document.
+
+14
+0:01:37 --> 0:01:46
+Since this process may be designed in different ways,
+
+15
+0:01:46 --> 0:01:52
+they may require some parameters.
+
+16
+0:01:52 --> 0:01:57
+So we can write the parameters in Project Variable.
+
+17
+0:01:57 --> 0:01:59
+I have already written it.
+
+18
+0:01:59 --> 0:02:05
+It is made in S.O.I. platform by RFSPAD.
+
+19
+0:02:05 --> 0:02:09
+So it is the thickness of the machine, the thickness of the computer,
+
+20
+0:02:09 --> 0:02:12
+and the thickness of the metal board.
+
+21
+0:02:13 --> 0:02:19
+So for the GSC, it has its own special parameters.
+
+22
+0:02:19 --> 0:02:27
+For example, what is the size of the pad, the length, and the length of the hardware.
+
+23
+0:02:27 --> 0:02:30
+The middle part needs some parameters.
+
+24
+0:02:30 --> 0:02:32
+So I have already written it.
+
+25
+0:02:32 --> 0:02:36
+Since we are going to make a backup structure here,
+
+26
+0:02:36 --> 0:02:47
+we need to use a duplicated mirror to make a backup structure.
+
+27
+0:02:47 --> 0:02:52
+First, we can draw a pattern.
+
+28
+0:03:37 --> 0:03:43
+We set a 20-veinig width margin here.
+
+29
+0:03:43 --> 0:03:48
+If you want to change the project variable,
+
+30
+0:03:48 --> 0:03:51
+you need to add the dollar sign.
+
+31
+0:04:07 --> 0:04:15
+We can set the value of the design property
+
+32
+0:04:15 --> 0:04:18
+in the process of naming.
+
+33
+0:04:18 --> 0:04:25
+We can also set the design property in the process of naming.
+
+34
+0:04:25 --> 0:04:29
+We can also set the half length.
+
+35
+0:04:29 --> 0:04:31
+We can do this by doing this.
+
+36
+0:04:31 --> 0:04:34
+We can set the half length.
+
+37
+0:04:34 --> 0:04:37
+We can do this by doing this.
+
+38
+0:04:37 --> 0:04:42
+It is the length of the pad, and the length of the middle part.
+
+39
+0:04:42 --> 0:04:46
+And the last length.
+
+40
+0:05:01 --> 0:05:11
+We can set the base.
+
+41
+0:05:11 --> 0:05:18
+We can set the object to be in control D.
+
+42
+0:05:18 --> 0:05:23
+We can change it to a suitable map.
+
+43
+0:05:23 --> 0:05:30
+We can set the size of the GSG.
+
+44
+0:05:30 --> 0:05:34
+We set the middle line first.
+
+45
+0:05:34 --> 0:05:39
+We need to use aluminum.
+
+46
+0:05:39 --> 0:06:07.820000
+We can set the size of the
+
+47
+0:06:07.820000 --> 0:06:14.820000
+space in the middle.
+
+48
+0:06:14.820000 --> 0:06:25.820000
+We can set the size of the space in the middle.
+
+49
+0:06:25.820000 --> 0:06:31.820000
+We can set the size of the space in the middle.
+
+50
+0:06:31.820000 --> 0:06:36.820000
+We can set the size of the space in the middle.
+
+51
+0:06:36.820000 --> 0:06:44.820000
+We can set the size of the space in the middle.
+
+52
+0:07:01.820000 --> 0:07:19.820000
+A smart app willÓ^±Š.
+
+53
+0:07:19.820000 --> 0:07:26.820000
+In the end, we can migrate the function.
+
+54
+0:07:26.820000 --> 0:07:36.820000
+We can select the reference point.
+
+55
+0:07:36.820000 --> 0:07:53.820000
+We can see the position 1 reference is 0000.
+
+56
+0:07:53.820000 --> 0:08:00.820000
+We can see the result.
+
+57
+0:08:00.820000 --> 0:08:07.820000
+When the position is 0000, it can be converted to the location.
+
+58
+0:08:07.820000 --> 0:08:13.820000
+We can change the value to gr.
+
+59
+0:08:13.820000 --> 0:08:18.820000
+This is the ground on the right.
+
+60
+0:08:18.820000 --> 0:08:33.820000
+We can define the value at the bottom.
+
+61
+0:08:33.820000 --> 0:09:02.820000
+We can change the value at the bottom.
+
+62
+0:09:02.820000 --> 0:09:29.820000
+We can define the value at the top.
+
+63
+0:09:29.820000 --> 0:09:39.820000
+We can see the ground on the right.
+
+64
+0:09:39.820000 --> 0:09:53.820000
+We can see the gl on the right.
+
+65
+0:09:53.820000 --> 0:10:18.820000
+We can see the ground on the right.
+
+66
+0:10:18.820000 --> 0:10:28.820000
+We can use the same function to migrate the function.
+
+67
+0:10:28.820000 --> 0:10:39.820000
+We can see the ground on the right.
+
+68
+0:10:39.820000 --> 0:10:54.820000
+We can see the ground on the right.
+
+69
+0:10:54.820000 --> 0:11:11.820000
+We can use the same function to migrate the function.
+
+70
+0:11:11.820000 --> 0:11:26.820000
+We can see the ground on the right.
+
+71
+0:11:27.820000 --> 0:11:51.820000
+We can see the ground on the right.
+
+72
+0:11:51.820000 --> 0:12:10.820000
+We can see the ground on the right.
+
+73
+0:12:10.820000 --> 0:12:24.820000
+We can check if the ground is at the top.
+
+74
+0:12:24.820000 --> 0:12:39.820000
+We can see the ground on the right.
+
+75
+0:12:39.820000 --> 0:12:54.820000
+We can see the ground on the right.
+
+76
+0:12:54.820000 --> 0:13:16.820000
+We can see the ground on the right.
+
+77
+0:13:16.820000 --> 0:13:32.820000
+We can change the value of the metal plate.
+
+78
+0:13:33.820000 --> 0:14:01.820000
+We can check if the ground is at the top.
+
+79
+0:14:01.820000 --> 0:14:14.820000
+We can see the ground on the right.
+
+80
+0:14:14.820000 --> 0:14:30.820000
+We can change the value at the top.
+
+81
+0:14:30.820000 --> 0:14:57.820000
+We can change the value at the top.
+
+82
+0:14:57.820000 --> 0:15:12.820000
+We can check if the ground is at the top.
+
+83
+0:15:12.820000 --> 0:15:41.820000
+We can change the value at the top.
+
+84
+0:15:41.820000 --> 0:16:07.820000
+We can see the ground on the right.
+
+85
+0:16:07.820000 --> 0:16:29.820000
+We can see the ground on the right.
+
+86
+0:16:29.820000 --> 0:16:51.820000
+We can see the ground on the right.
+
+87
+0:16:51.820000 --> 0:17:20.820000
+We can check if the ground is at the top.
+
+88
+0:17:21.820000 --> 0:17:47.820000
+We can see the ground on the right.
+
+89
+0:17:47.820000 --> 0:18:15.820000
+We can choose the long vector.
+
+90
+0:18:17.820000 --> 0:18:45.820000
+We can change the value of the material to silicon.
+
+91
+0:18:48.820000 --> 0:19:15.820000
+We can change the value of the material to silicon.
+
+92
+0:19:15.820000 --> 0:19:27.820000
+We can change the value of the material to silicon.
+
+93
+0:19:45.820000 --> 0:20:01.820000
+We can change the value of the material to silicon.
+
+94
+0:20:15.820000 --> 0:20:44.820000
+We can change the value of the material to silicon.
+
+95
+0:20:45.820000 --> 0:21:13.820000
+We can change the value of the material to silicon.
+
+96
+0:21:15.820000 --> 0:21:29.820000
+We can change the value of the material to silicon.
+
+97
+0:21:29.820000 --> 0:21:57.820000
+We can change the value of the material to silicon.
+
+98
+0:21:59.820000 --> 0:22:27.820000
+We can change the value of the material to silicon.
+
+99
+0:22:27.820000 --> 0:22:49.820000
+We can change the value of the material to silicon.
+
+100
+0:22:49.820000 --> 0:23:10.820000
+We can add a duplicate.
+
+101
+0:23:10.820000 --> 0:23:39.820000
+We can change the value of the material to silicon.
+
+102
+0:23:40.820000 --> 0:24:08.820000
+We can change the value of the material to silicon.
+
+103
+0:24:10.820000 --> 0:24:39.820000
+We can change the value of the material to silicon.
+
+104
+0:24:40.820000 --> 0:25:09.820000
+We can change the value of the material to silicon.
+
+105
+0:25:10.820000 --> 0:25:39.820000
+We can change the value of the material to silicon.
+
+106
+0:25:40.820000 --> 0:26:07.820000
+We can change the value of the material to silicon.
+
+107
+0:26:07.820000 --> 0:26:35.820000
+We can change the value of the material to silicon.
+
+108
+0:26:37.820000 --> 0:27:06.820000
+We can change the value of the material to silicon.
+
+109
+0:27:07.820000 --> 0:27:36.820000
+We can change the value of the material to silicon.
+
+110
+0:27:37.820000 --> 0:28:00.820000
+We can change the value of the material to silicon.
+
+111
+0:28:07.820000 --> 0:28:36.820000
+We can change the value of the material to silicon.
+
+112
+0:28:37.820000 --> 0:28:59.820000
+We can change the value of the material to silicon.
+
+113
+0:28:59.820000 --> 0:29:28.820000
+We can change the value of the material to silicon.
+
+114
+0:29:29.820000 --> 0:29:58.820000
+We can change the value of the material to silicon.
+
+115
+0:29:59.820000 --> 0:30:28.820000
+We can change the value of the material to silicon.
+
+116
+0:30:29.820000 --> 0:30:51.820000
+We can change the value of the material to silicon.
+
+117
+0:30:59.820000 --> 0:31:28.820000
+We can change the value of the material to silicon.
+
+118
+0:31:29.820000 --> 0:31:58.820000
+We can change the value of the material to silicon.
+
+119
+0:32:00.820000 --> 0:32:01.820000
+Let's do it.
+
+120
+0:32:04.820000 --> 0:32:06.820000
+You can see that it is in.
+
+121
+0:32:07.820000 --> 0:32:13.820000
+It looks more correct.
+
+122
+0:32:14.820000 --> 0:32:22.820000
+It is almost the same as the anime.
+
+123
+0:32:22.820000 --> 0:32:32.820000
+Let me show you how to make a reference scan.
+
+124
+0:33:02.820000 --> 0:33:06.820000
+It is the same as the reference scan.
+
+125
+0:33:09.820000 --> 0:33:11.820000
+It looks like a with margin.
+
+126
+0:33:11.820000 --> 0:33:13.820000
+I will feed it back.
+
+127
+0:33:14.820000 --> 0:33:15.820000
+I have already made it.
+
+128
+0:33:15.820000 --> 0:33:17.820000
+I will show you in a few minutes.
+
+129
+0:33:17.820000 --> 0:33:20.820000
+This is the middle part.
+
+130
+0:33:20.820000 --> 0:33:28.820000
+When we are here, we can set an add.
+
+131
+0:33:29.820000 --> 0:33:37.820000
+Let's set up the add.
+
+132
+0:33:38.820000 --> 0:33:45.820000
+For the scan, we can only scan 5 pn.
+
+133
+0:33:45.820000 --> 0:33:48.820000
+20g to 24g.
+
+134
+0:33:48.820000 --> 0:33:56.820000
+We can check the validation first.
+
+135
+0:33:57.820000 --> 0:33:58.820000
+Analyze all.
+
+136
+0:34:05.820000 --> 0:34:07.820000
+Let's see.
+
+137
+0:34:07.820000 --> 0:34:23.080000
+This is the
+
+138
+0:34:26.820000 --> 0:34:28.820000
+parameter metric.
+
+139
+0:34:28.820000 --> 0:34:35.820000
+We can change the value of the material to a width.
+
+140
+0:34:35.820000 --> 0:34:40.820000
+From 4 to 6.
+
+141
+0:34:40.820000 --> 0:34:42.820000
+This is the value of the material.
+
+142
+0:34:42.820000 --> 0:34:45.820000
+We can find a free-to-use.
+
+143
+0:34:45.820000 --> 0:34:49.820000
+Step 1 is the value of the material.
+
+144
+0:34:49.820000 --> 0:34:52.820000
+We can scan a lot of values.
+
+145
+0:34:52.820000 --> 0:34:56.820000
+We can scan the pitch.
+
+146
+0:34:56.820000 --> 0:35:06.820000
+5.6 to 7.2.
+
+147
+0:35:06.820000 --> 0:35:10.820000
+I want to set a step to 0.4.
+
+148
+0:35:10.820000 --> 0:35:11.820000
+I will add it.
+
+149
+0:35:14.820000 --> 0:35:15.820000
+I am sure.
+
+150
+0:35:15.820000 --> 0:35:20.820000
+I will do a validation check.
+
+151
+0:35:20.820000 --> 0:35:27.820000
+I can analyze the parameter.
+
+152
+0:35:27.820000 --> 0:35:30.820000
+I can see 15.
+
+153
+0:35:30.820000 --> 0:35:32.820000
+I said 3.5, so 15.
+
+154
+0:35:32.820000 --> 0:35:34.820000
+I will wait.
+
+155
+0:35:34.820000 --> 0:35:35.820000
+You can see.
+
+156
+0:35:35.820000 --> 0:35:37.820000
+I will do a validation check.
+
+157
+0:35:37.820000 --> 0:35:39.820000
+I will do a validation check.
+
+158
+0:35:39.820000 --> 0:35:42.820000
+I will do a validation check.
+
+159
+0:36:42.820000 --> 0:36:45.820000
+I will do a validation check.
+
+160
+0:39:15.820000 --> 0:39:39.820000
+I will do a validation check.
+
+161
+0:39:39.820000 --> 0:39:40.820000
+Ok, it's done.
+
+162
+0:39:40.820000 --> 0:39:43.820000
+Now we can do a validation check.
+
+163
+0:39:43.820000 --> 0:39:46.820000
+Add the tangular.
+
+164
+0:39:47.820000 --> 0:39:53.820000
+Let's say we want to see the epsilon.
+
+165
+0:39:54.820000 --> 0:39:56.820000
+I will look at the print.
+
+166
+0:39:56.820000 --> 0:39:58.820000
+It's symmetrical.
+
+167
+0:39:59.820000 --> 0:40:01.820000
+Magneto.
+
+168
+0:40:03.820000 --> 0:40:05.820000
+You can see the 15 lines.
+
+169
+0:40:05.820000 --> 0:40:10.820000
+This line is a line that you can choose from
+
+170
+0:40:10.820000 --> 0:40:13.820000
+and use it to make a prediction.
+
+171
+0:40:13.820000 --> 0:40:18.820000
+This line is a 7.2 and 4.
+
+172
+0:40:19.820000 --> 0:40:23.820000
+If we want to see this line,
+
+173
+0:40:23.820000 --> 0:40:27.820000
+we can modify it to 7.2 and 4.
+
+174
+0:40:27.820000 --> 0:40:29.820000
+Family.
+
+175
+0:40:29.820000 --> 0:40:31.820000
+I will change it to 7.2.
+
+176
+0:40:32.820000 --> 0:40:35.820000
+I will change it to 7.2.
+
+177
+0:40:35.820000 --> 0:40:37.820000
+Plitrace.
+
+178
+0:40:37.820000 --> 0:40:39.820000
+You can only see this line.
+
+179
+0:40:39.820000 --> 0:40:43.820000
+If we want to see all the previous lines,
+
+180
+0:40:43.820000 --> 0:40:46.820000
+we can go back to Plitrace.
+
+181
+0:40:46.820000 --> 0:40:49.820000
+So when we are here,
+
+182
+0:40:49.820000 --> 0:40:52.820000
+we can scan the parameters,
+
+183
+0:40:52.820000 --> 0:40:54.820000
+scan the frequency,
+
+184
+0:40:54.820000 --> 0:40:57.820000
+and scan the combination of the previous parameters.
+
+185
+0:40:57.820000 --> 0:41:03.820000
+That's all for today.
+
